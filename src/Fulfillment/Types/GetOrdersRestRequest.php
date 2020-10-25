@@ -29,6 +29,12 @@ class GetOrdersRestRequest extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'filter'
         ],
+        'fieldGroups' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'fieldGroups'
+        ],
         'limit' => [
             'type' => 'string',
             'repeatable' => false,

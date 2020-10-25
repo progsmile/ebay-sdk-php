@@ -34,6 +34,9 @@ class FulfillmentService extends \DTS\eBaySDK\Fulfillment\Services\FulfillmentBa
                 ],
                 'orderIds' => [
                     'valid' => ['string']
+                ],
+                'fieldGroups' => [
+                    'valid' => ['string']
                 ]
             ]
         ],
